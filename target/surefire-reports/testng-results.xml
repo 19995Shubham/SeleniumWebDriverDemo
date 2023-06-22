@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-13T13:23:08 IST" name="Suite" finished-at="2023-06-13T13:23:27 IST" duration-ms="18825">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.LoginErrorValidation()[pri:0, instance:shubhamAdvanceSelenium.test.ErrorValidation@23f5b5dc]" name="LoginErrorValidation" class="shubhamAdvanceSelenium.test.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrder.submitOrder(java.util.HashMap)[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@514646ef]" name="submitOrder" class="shubhamAdvanceSelenium.test.SubmitOrder"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-06-13T13:23:08 IST" name="Error Validation Test" finished-at="2023-06-13T13:23:19 IST" duration-ms="10347">
+      <class name="shubhamAdvanceSelenium.test.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:shubhamAdvanceSelenium.test.ErrorValidation@23f5b5dc]" started-at="2023-06-13T13:23:08 IST" name="launchApplication" finished-at="2023-06-13T13:23:12 IST" duration-ms="3320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:shubhamAdvanceSelenium.test.ErrorValidation@23f5b5dc]" started-at="2023-06-13T13:23:12 IST" name="LoginErrorValidation" finished-at="2023-06-13T13:23:13 IST" duration-ms="1179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shubhamAdvanceSelenium.test.ErrorValidation@23f5b5dc]" started-at="2023-06-13T13:23:13 IST" name="tearDown" finished-at="2023-06-13T13:23:13 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:shubhamAdvanceSelenium.test.ErrorValidation@23f5b5dc]" started-at="2023-06-13T13:23:13 IST" name="launchApplication" finished-at="2023-06-13T13:23:16 IST" duration-ms="3090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:shubhamAdvanceSelenium.test.ErrorValidation@23f5b5dc]" started-at="2023-06-13T13:23:16 IST" name="ProductErrorValidation" finished-at="2023-06-13T13:23:19 IST" duration-ms="2245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shubhamAdvanceSelenium.test.ErrorValidation@23f5b5dc]" started-at="2023-06-13T13:23:19 IST" name="tearDown" finished-at="2023-06-13T13:23:19 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- shubhamAdvanceSelenium.test.ErrorValidation -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2023-06-13T13:23:08 IST" name="Submit Order Test" finished-at="2023-06-13T13:23:27 IST" duration-ms="18825">
+      <class name="shubhamAdvanceSelenium.test.SubmitOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@514646ef]" started-at="2023-06-13T13:23:09 IST" name="launchApplication" finished-at="2023-06-13T13:23:13 IST" duration-ms="4595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@514646ef]" started-at="2023-06-13T13:23:13 IST" name="submitOrder" data-provider="getData" finished-at="2023-06-13T13:23:18 IST" duration-ms="4363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=india, password=Shubham@123456789, product=ZARA COAT 3, confirmMessage=THANKYOU FOR THE ORDER., email=stripathia8@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@514646ef]" started-at="2023-06-13T13:23:18 IST" name="tearDown" finished-at="2023-06-13T13:23:18 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@514646ef]" started-at="2023-06-13T13:23:18 IST" name="launchApplication" finished-at="2023-06-13T13:23:20 IST" duration-ms="2533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@514646ef]" started-at="2023-06-13T13:23:20 IST" name="submitOrder" data-provider="getData" finished-at="2023-06-13T13:23:24 IST" duration-ms="3216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=china, password=Shrish@1995, product=ADIDAS ORIGINAL, confirmMessage=THANKYOU FOR THE ORDER., email=s.shubhamtripathi@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@514646ef]" started-at="2023-06-13T13:23:24 IST" name="tearDown" finished-at="2023-06-13T13:23:24 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@514646ef]" started-at="2023-06-13T13:23:24 IST" name="launchApplication" finished-at="2023-06-13T13:23:26 IST" duration-ms="2548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@514646ef]" started-at="2023-06-13T13:23:26 IST" name="OrderHistoryTest" finished-at="2023-06-13T13:23:27 IST" depends-on-methods="shubhamAdvanceSelenium.test.SubmitOrder.submitOrder" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@514646ef]" started-at="2023-06-13T13:23:27 IST" name="tearDown" finished-at="2023-06-13T13:23:27 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- shubhamAdvanceSelenium.test.SubmitOrder -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>

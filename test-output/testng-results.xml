@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-20T18:35:23 IST" name="Default suite" finished-at="2023-06-20T18:35:46 IST" duration-ms="22968">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrder.submitOrder(java.util.HashMap)[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@294425a7]" name="submitOrder" class="shubhamAdvanceSelenium.test.SubmitOrder"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-06-20T18:35:23 IST" name="Default test" finished-at="2023-06-20T18:35:46 IST" duration-ms="22968">
+      <class name="shubhamAdvanceSelenium.test.SubmitOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@294425a7]" started-at="2023-06-20T18:35:23 IST" name="launchApplication" finished-at="2023-06-20T18:35:28 IST" duration-ms="4982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@294425a7]" started-at="2023-06-20T18:35:28 IST" name="submitOrder" data-provider="getData" finished-at="2023-06-20T18:35:33 IST" duration-ms="4293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=india, password=Shubham@123456789, product=ZARA COAT 3, confirmMessage=THANKYOU FOR THE ORDER., email=stripathia8@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@294425a7]" started-at="2023-06-20T18:35:33 IST" name="tearDown" finished-at="2023-06-20T18:35:34 IST" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@294425a7]" started-at="2023-06-20T18:35:34 IST" name="launchApplication" finished-at="2023-06-20T18:35:38 IST" duration-ms="3803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@294425a7]" started-at="2023-06-20T18:35:38 IST" name="submitOrder" data-provider="getData" finished-at="2023-06-20T18:35:41 IST" duration-ms="3423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=china, password=Shrish@1995, product=ADIDAS ORIGINAL, confirmMessage=THANKYOU FOR THE ORDER., email=s.shubhamtripathi@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@294425a7]" started-at="2023-06-20T18:35:41 IST" name="tearDown" finished-at="2023-06-20T18:35:41 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@294425a7]" started-at="2023-06-20T18:35:41 IST" name="launchApplication" finished-at="2023-06-20T18:35:45 IST" duration-ms="3805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@294425a7]" started-at="2023-06-20T18:35:45 IST" name="OrderHistoryTest" finished-at="2023-06-20T18:35:46 IST" depends-on-methods="shubhamAdvanceSelenium.test.SubmitOrder.submitOrder" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shubhamAdvanceSelenium.test.SubmitOrder@294425a7]" started-at="2023-06-20T18:35:46 IST" name="tearDown" finished-at="2023-06-20T18:35:46 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- shubhamAdvanceSelenium.test.SubmitOrder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
