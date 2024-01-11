@@ -27,6 +27,13 @@ public class StepDefinitionImpl extends BaseTest{
 	  landingPage = launchApplication();
 	 
 	}
+
+
+//	@Given("^I landed on Ecommerce Page on (.*) and in browser (.*)$")
+//	public void I_landed_on_Ecommerce_Page_with_web(String plateform,String browser) throws IOException {
+//		 landingPage = launchApplication( plateform,browser);
+		 
+	
 	
 	@Given("^Logged in with username (.+) and password (.+)$")
 	public void Logged_in_with_username_and_password(String userName,String password) {
@@ -55,5 +62,6 @@ public class StepDefinitionImpl extends BaseTest{
 		Assert.assertTrue(confirmMessage.equalsIgnoreCase(string));
 		driver.quit();
 	}
+
 
 }

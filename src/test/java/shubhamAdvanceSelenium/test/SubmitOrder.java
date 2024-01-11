@@ -34,6 +34,7 @@ public class SubmitOrder extends BaseTest {
 		checkoutPage.selectCountry(input.get("country"));
 		ConfirmationPage confirmationPage = checkoutPage.submitOrder();
 		String confirmMessage = confirmationPage.getConfirmationMessage();
+		log.info("check SubmitOrderPage");
 		Assert.assertTrue(confirmMessage.equalsIgnoreCase(input.get("confirmMessage")));
 
 	}

@@ -9,7 +9,7 @@
 </groups>	
   <test thread-count="5" name="Submit Order Test">
     <classes>
-      <class name="shubhamAdvanceSelenium.test.Submit Order"/>
+      <class name="shubhamAdvanceSelenium.test.SubmitOrder"/>
     </classes>
   </test> <!-- Test -->
   

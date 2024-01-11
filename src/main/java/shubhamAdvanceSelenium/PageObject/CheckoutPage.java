@@ -49,5 +49,18 @@ public class CheckoutPage extends AbstractComponent{
 		return new ConfirmationPage(driver);
 		
 		
+		/*
+		 *    // Create an instance of JavascriptExecutor
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+
+        // Scroll down by 500 pixels vertically
+        js.executeScript("window.scrollBy(0,500)");
+
+        // Alternatively, you can scroll to a specific element
+        // WebElement element = driver.findElement(By.id("elementId"));
+        // js.executeScript("arguments[0].scrollIntoView();", element);
+*/
+		
+		
 	}
 }

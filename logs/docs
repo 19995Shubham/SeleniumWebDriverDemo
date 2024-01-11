@@ -1,0 +1,11 @@
+// to focus on the desired screen and scroll the page
+document.querySelector("#main-content").scrollBy(0,700)
+
+here document will focus on the entire screen
+querySelector use for which query we want
+inside it give the location where we want to focus by giving the locator and then scroll it.
+
+example
+ \
+ JavaScriptExecutor js = (javaScriptExecutor)driver;
+ js.executeScript(document.querySelector("#main-content").scrollBy(0,700));
